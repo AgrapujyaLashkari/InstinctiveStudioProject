@@ -1,10 +1,11 @@
 import { LayoutDashboard, Users, BookOpen, HelpCircle, BarChart2, Settings } from 'lucide-react'
+import logo from '../assets/Vector.svg'
 
 export function Sidebar() {
   return (
     <div className="w-64 bg-white border-r h-screen p-6">
       <div className="mb-8">
-        <img src="/images/quyl-logo.svg" alt="Quyl Logo" className="h-8" />
+        <img src={logo} alt="Quyl Logo" className="h-8" />
       </div>
       
       <nav className="space-y-2">
