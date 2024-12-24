@@ -7,7 +7,6 @@ import notifi from '../assets/Notification.svg'
 import setting from '../assets/settings.svg'
 
 export function Header() {
-  // const { selectedYear, selectedClass, setFilters } = useStore()
 
   return (
     <div className="h-16 border-b bg-white px-6 flex items-center justify-between">
@@ -20,32 +19,6 @@ export function Header() {
             className="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20"
           />
         </div>
-        
-        {/* <Select
-          value={selectedYear}
-          onValueChange={(value) => setFilters(value, selectedClass)}
-        >
-          <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Select Year" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="AY 2024-25">AY 2024-25</SelectItem>
-            <SelectItem value="AY 2023-24">AY 2023-24</SelectItem>
-          </SelectContent>
-        </Select>
-
-        <Select
-          value={selectedClass}
-          onValueChange={(value) => setFilters(selectedYear, value)}
-        >
-          <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Select Class" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="CBSE 9">CBSE 9</SelectItem>
-            <SelectItem value="CBSE 10">CBSE 10</SelectItem>
-          </SelectContent>
-        </Select> */}
       </div>
 
       <div className="flex items-center gap-10">
